@@ -17,3 +17,9 @@
 
 (asdf:register-system-packages "clack-handler-hunchentoot"
                                '("CLACK.HANDLER.HUNCHENTOOT"))
+(asdf:register-system-packages "lack-request"
+                               '("LACK.REQUEST"))
+(asdf:register-system-packages "lack-response"
+                               '("LACK.RESPONSE"))
+(asdf:register-system-packages "log4cl"
+                               '("LOG"))
